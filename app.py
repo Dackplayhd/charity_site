@@ -22,7 +22,7 @@ html_template = """
         .btn:hover { background-color: #21867a; transform: scale(1.05); }
         section { padding: 4em 1em; max-width: 800px; margin: auto; text-align: center; }
         section h2 { font-size: 2em; margin-bottom: 0.5em; color: #e76f51; position: relative; }
-        section h2::after { content: '\ud83d\udc3e'; position: absolute; right: -1.5em; top: 0; font-size: 0.9em; }
+        section h2::after { content: '🐾'; position: absolute; right: -1.5em; top: 0; font-size: 0.9em; }
         .actions { display: flex; flex-direction: column; gap: 1.5em; align-items: center; margin-top: 2em; }
         .action-btn { display: inline-block; padding: 1em 2em; background-color: #f4a261; color: #fff; text-decoration: none; font-weight: bold; border-radius: 50px; transition: all 0.3s ease; width: 280px; text-align: center; }
         .action-btn:hover { background-color: #e76f51; transform: scale(1.05); }
@@ -43,7 +43,7 @@ html_template = """
     </header>
 
     <section id=\"hero\">
-        <h2>Подаруй тепло та надію тваринам 🐾</h2>
+        <h2>Подаруй тепло та надію тваринам</h2>
         <p>Разом ми можемо змінити життя на краще!</p>
         <a href=\"#help\" class=\"btn\">Долучитися</a>
     </section>
@@ -87,3 +87,4 @@ def home():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
